@@ -34,8 +34,8 @@ export default function Carousel() {
     <div className={styles.container}>
       <h1>Read Our Blog</h1>
       <p>
-        far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts.
+        far far away, behind the word mountains, far from the countries <br />{" "}
+        Vokalia and Consonantia, there live the blind texts.
       </p>
 
       <ReactSlidy
@@ -49,31 +49,31 @@ export default function Carousel() {
           image='/images/bloco_image_1.svg'
           alt=''
           title='Quick-start guide to nuts and seeds'
-          avatar='https://unsplash.com/photos/a19OVaa2rzA'
-          name='Carlos Sergio'
+          avatar='/images/user1.jpg'
+          name='Michael Dam'
         />
         <CardsBlog
           image='/images/bloco_image_2.svg'
           alt=''
-          title='nutrition: Tips for Improving Your Health'
-          avatar='https://unsplash.com/photos/a19OVaa2rzA'
-          name='Carlos Sergio'
+          title='Nutrition: Tips for Improving Your Health'
+          avatar='/images/user2.jpg'
+          name='Ben Parker'
         />
 
         <CardsBlog
           image='/images/bloco_image_3.svg'
           alt=''
           title='The top 10 benefits of eating helathy'
-          avatar='https://unsplash.com/photos/a19OVaa2rzA'
-          name='Carlos Sergio'
+          avatar='/images/user3.jpg'
+          name='Luisa Villasmil'
         />
 
         <CardsBlog
           image='/images/bloco_image_4.svg'
           alt='Image'
           title='Quick-start guide to nuts and seeds'
-          avatar='https://unsplash.com/photos/a19OVaa2rzA'
-          name='Carlos Sergio'
+          avatar='/images/user4.jpg'
+          name='Vicky Hladynets'
         />
       </ReactSlidy>
     </div>
