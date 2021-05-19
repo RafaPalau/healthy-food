@@ -1,0 +1,17 @@
+.headerContainer{
+  display:flex;
+  position:relative;
+  z-index: 0;
+  height: 5rem;
+  // margin-bottom: 5rem;
+}
+.headerContent{
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
