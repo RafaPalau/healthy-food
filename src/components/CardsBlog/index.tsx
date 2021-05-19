@@ -23,8 +23,10 @@ export const CardsBlog: React.FC<ICardProps> = ({
 
       <div className={styles.textContainer}>
         <h3>{title}</h3>
-        <img src={avatar} alt={alt} />
-        <span>{name}</span>
+        <div className={styles.userContainer}>
+          <img src={avatar} alt={alt} />
+          <p>{name}</p>
+        </div>
       </div>
     </div>
   );
