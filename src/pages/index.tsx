@@ -5,8 +5,6 @@ import BlockServices from "../components/BlockServices";
 import Carousel from "../components/Carousel";
 import MainIllustration from "../components/mainIllustration";
 
-import styles from "./home.module.scss";
-
 export default function Home() {
   return (
     <>
