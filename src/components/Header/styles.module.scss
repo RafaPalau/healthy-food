@@ -1,18 +1,19 @@
 .headerContainer {
   height: 5rem;
+  position: relative;
+  z-index: 3;
 }
 .headerContent {
-  max-width: 1300px;
+  max-width: 1600px;
   height: 5rem;
   margin: 0 auto;
-  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   h1 {
     color: var(--green-500);
     font-size: 2rem;
+    margin-left: 5rem;
   }
 
   nav {

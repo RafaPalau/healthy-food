@@ -1,3 +1,6 @@
+import Button from "../Button";
+import Input from "../Input";
+
 export default function BlockFinally() {
   return (
 
@@ -5,8 +8,8 @@ export default function BlockFinally() {
    <section>
   <div>
     <h2>Join ou membership to get special offer</h2>
-    <input type="text" placeholder="Enter your email address" />
-    <button>Join</button>
+   <Input placeholder="Enter your email address"/>
+    <Button>Join</Button>
   </div>
   <img src="/images/bloco_final_image.svg" alt="" />
 </section>

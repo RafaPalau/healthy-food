@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  border-radius: 1rem;
+  background: var(--white);
+  width: 500px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+  margin: 1.5rem;
+}
+.textContainer {
+  width: 50%;
+  padding: 2rem;
+  text-align: left;
+  h3{
+    color: var(--blue-500);
+   
+    font-size: 1.5rem;
+  }
+  button{
+    width: 50%;
+    margin-top: 1rem;
+    border: 0;
+    background: var(--green-500);
+    height: 2.5rem;
+    border-radius: .3rem;
+    color: var(--white);
+    font-size: .8rem;
+
+    transition: filter 0.2s;
+
+    &:hover{
+      filter: brightness(.9);
+    }
+  }
+}
