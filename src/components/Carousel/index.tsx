@@ -71,7 +71,7 @@ export default function Carousel() {
         <CardsBlog
           image='/images/bloco_image_4.svg'
           alt='Image'
-          title='Quick-start guide to nuts and seeds'
+          title="Why did eating well made you live longer?"
           avatar='/images/user4.jpg'
           name='Vicky Hladynets'
         />
