@@ -29,6 +29,11 @@
 }
 
 body {
+  background-image: url('/images/illustration.svg') ;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: right top;
+background-size: 65%;
 }
 
 body,

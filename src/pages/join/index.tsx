@@ -1,8 +1,10 @@
+
+import styles from "./styles.module.scss";
 export default function Join() {
   return (
 
-    <>
-    <h1>Page Join</h1>
-   </>
+    <div className={styles.container}>
+    <h1>Page join</h1>
+   </div>
   )
 }

@@ -10,7 +10,7 @@ export function Header() {
           <a href='/blog'>Blog</a>
           <a href='/join'>Join</a>
           <a href='/register'>
-            <button>Register</button>
+            <button>REGISTER</button>
           </a>
         </nav>
       </div>
