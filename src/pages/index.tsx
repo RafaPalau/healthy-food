@@ -10,11 +10,10 @@ import styles from './home.module.scss';
 export default function Home() {
   return (
 
-   <>
+  <>
     <Head ><title>Home | Healthy Food</title></Head>
 
 <Illustration />
-
 <BestecipesCards />
 <BlockServices />
 <Carousel />
