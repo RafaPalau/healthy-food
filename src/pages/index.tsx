@@ -5,7 +5,10 @@ import BlockServices from "../components/BlockServices";
 import Carousel from "../components/Carousel";
 import MainIllustration from "../components/mainIllustration";
 
+
+
 export default function Home() {
+
   return (
     <>
       <Head>

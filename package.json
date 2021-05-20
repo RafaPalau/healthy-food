@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "express": "^4.17.1",
