@@ -4,6 +4,7 @@ import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
 import Footer from "../../components/Footer";
+import Head from "next/head";
 
 export default function Register() {
   const [cookies, setCookie] = useCookies(["healthy-cookie"]);
@@ -32,9 +33,16 @@ export default function Register() {
     );
   }
 
+  const styling = {
+    backgroundImage: "url('/images/illustration.svg')",
+
+  }
+
   return (
-    <div className={styles.container}>
-     
+    <div
+      className={styles.container}
+      style={styling}
+    >
       <Formik
         onSubmit={onSubmit}
         validateOnMount
@@ -49,7 +57,9 @@ export default function Register() {
                 <label>Nome</label>
                 <Field name='name' type='text' required />
               </div>
-
+              <Head>
+                <title>Register | Healthy Food</title>
+              </Head>
               <div className={styles.formControlGrup}>
                 <label>Data de nascimento</label>
                 <Field name='birthday' type='date' />
