@@ -10,9 +10,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "formik": "^2.1.4",
     "formik-persist": "^1.1.0",
     "next": "10.2.0",
