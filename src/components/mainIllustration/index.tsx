@@ -23,7 +23,7 @@ export default function MainIllustration() {
          </div>
         
        </div>
-       <img src='/images/bloco_final_image.svg' alt='' />
+       <img src='/images/Illustration.svg' alt='' />
       {/* <img src="/images/illustration.svg" alt=""  /> */}
      </div>
   
