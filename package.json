@@ -2,11 +2,6 @@
   "name": "healthy-food",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.16.1",
-    "npm": "6.14.12",
-    "yarn": "1.22.10"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
