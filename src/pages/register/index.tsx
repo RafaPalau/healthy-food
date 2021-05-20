@@ -139,7 +139,7 @@ export default function Register() {
           </Form>
         )}
       </Formik>
-      <img src='/images/Illustration.svg' alt='' />
+      {/* <img src='/images/Illustration.svg' alt='' /> */}
 
      
     </div>

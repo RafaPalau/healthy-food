@@ -19,7 +19,7 @@ export default function MainIllustration() {
           </Button>
         </div>
       </div>
-      <img src='/images/Illustration.svg' alt='' />
+     
     
     </div>
   );
