@@ -34,7 +34,7 @@ export default function Register() {
   }
 
   const styling = {
-    backgroundImage: "url('static/images/illustration.svg')",
+    backgroundImage: "url('/images/illustration.svg')",
 
   }
 

@@ -3,18 +3,21 @@
   height: 100vh;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
 
   z-index: 1;
 
-  background-image: url("/images/illustration.svg");
-  background-repeat: no-repeat;
-  display: flex;
-  background-position: right top;
-  background-size: 60%;
+  
 
-  margin-top: -5rem;
+  img{
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right top;
+    background-size: 60%;
+    margin-top: -15rem;
+    
+  }
 
   @media (max-width: 960px) {
     margin-top: 0rem;
