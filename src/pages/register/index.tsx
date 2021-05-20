@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Formik, Field, Form } from "formik";
+import { Formik, Field, Form, ErrorMessage } from "formik";
 import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
@@ -45,7 +45,7 @@ export default function Register() {
             <div className={styles.personalData}>
               <div className={styles.formControlGrup}>
                 <label>Nome</label>
-                <Field name='name' type='text' />
+                <Field name='name' type='text' required />
               </div>
 
               <div className={styles.formControlGrup}>
@@ -62,6 +62,7 @@ export default function Register() {
               <div className={styles.formControlGrup}>
                 <label>CEP</label>
                 <Field
+                  required
                   name='cep'
                   type='text'
                   onBlur={(event) => onBlurCep(event, setFieldValue)}
@@ -75,7 +76,7 @@ export default function Register() {
 
               <div className={styles.formControlGrup}>
                 <label>Número</label>
-                <Field name='numero' type='text' />
+                <Field name='numero' type='text' required />
               </div>
 
               <div className={styles.formControlGrup}>
