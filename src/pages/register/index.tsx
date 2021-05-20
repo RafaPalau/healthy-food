@@ -35,8 +35,7 @@ export default function Register() {
 
   return (
     <div className={styles.container}>
-
-     
+    
       <Formik
         onSubmit={onSubmit}
         validateOnMount
@@ -139,8 +138,7 @@ export default function Register() {
           </Form>
         )}
       </Formik>
-      {/* <img src='/images/Illustration.svg' alt='' /> */}
-
+    
      
     </div>
   );

@@ -19,8 +19,6 @@ export default function MainIllustration() {
           </Button>
         </div>
       </div>
-     
-    
     </div>
   );
 }

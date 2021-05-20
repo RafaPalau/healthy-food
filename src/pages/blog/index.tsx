@@ -13,8 +13,7 @@ export default function Blog() {
         <title>Blog | Healthy Food</title>
       </Head>
       <h1>Blog</h1>
-      <img src='/images/Illustration.svg' alt='' />
-      <Footer />
+    
     </>
   );
 }

@@ -9,8 +9,7 @@ export default function Register() {
         <title>join | Healthy Food</title>
       </Head>
       <h1>Join</h1>
-      <img src='/images/Illustration.svg' alt='' />
-      <Footer />
+   
     </>
   );
 }
