@@ -6,7 +6,6 @@ import styles from "./styles.module.scss";
 import Input from "../Input";
 import Button from "../Button";
 
-
 export default function MainIllustration() {
   
 
@@ -22,8 +21,9 @@ export default function MainIllustration() {
              <FiSearch />
            </Button>
          </div>
+        
        </div>
-        <img src="/images/illustration.svg" alt="" />
+      <img src="/images/illustration.svg" alt=""  />
      </div>
   
   );
