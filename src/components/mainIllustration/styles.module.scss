@@ -1,22 +1,14 @@
-
 .container {
   height: 100vh;
-
   display: flex;
   flex-direction: row;
-  position: relative;
 
-  z-index: 1;
-
-  
-
-  img{
+  img {
     background-repeat: no-repeat;
     display: flex;
     background-position: right top;
     background-size: 60%;
     margin-top: -15rem;
-    
   }
 
   @media (max-width: 960px) {
