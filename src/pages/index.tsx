@@ -6,13 +6,13 @@ import Carousel from "../components/Carousel";
 import MainIllustration from "../components/mainIllustration";
 
 
-
 export default function Home() {
 
   return (
     <>
       <Head>
         <title>Home | Healthy Food</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
       <MainIllustration />
       <BestecipesCards />

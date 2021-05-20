@@ -1,32 +1,17 @@
 .container {
   height: 100vh;
-  display: flex;
-  flex-direction: row;
+  width: 100vw;
 
-  img {
-    background-repeat: no-repeat;
-    display: flex;
-    background-position: right top;
-    background-size: 65%;
-    margin-top: -15rem;
-  }
   @media (max-width: 1630px) {
     margin-top: -5rem;
-
-    img {
-      width: 100%;
-      // background-size: 400px;
-      margin-top: -15rem;
-    }
   }
 }
 
 .content {
+
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
   justify-content: center;
-  padding: 5rem;
 
 
   h1 {

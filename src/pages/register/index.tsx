@@ -35,7 +35,10 @@ export default function Register() {
 
   return (
     <div className={styles.container}>
-    
+      <div className={styles.containerTitle}>
+    <h1 className={styles.title}>Healthy Food</h1>
+    <span>register and get a special offer</span>
+    </div>
       <Formik
         onSubmit={onSubmit}
         validateOnMount
