@@ -1,3 +1,22 @@
-.container{
- width: 1740px;
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  img {
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right top;
+    background-size: 65%;
+    margin-top: -15rem;
+  }
+  @media (max-width: 1630px) {
+    margin-top: -5rem;
+
+    img {
+      width: 100%;
+      // background-size: 400px;
+      margin-top: -15rem;
+    }
+  }
 }

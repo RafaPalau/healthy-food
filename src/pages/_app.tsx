@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
       <Aside />
       <Component {...pageProps} />
-    
+    <Footer />
     </>
   );
 }

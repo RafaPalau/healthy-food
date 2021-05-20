@@ -19,7 +19,7 @@ export default function BlockFinally() {
       
     </div>
 
-<Footer />
+
 </>
   );
 }

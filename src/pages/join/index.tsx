@@ -1,10 +1,16 @@
+import React from "react";
+import Footer from "../../components/Footer";
+import Head from "next/head";
 
-import styles from "./styles.module.scss";
-export default function Join() {
+export default function Register() {
   return (
-
-    <div className={styles.container}>
-    <h1>Page join</h1>
-   </div>
-  )
+    <>
+      <Head>
+        <title>join | Healthy Food</title>
+      </Head>
+      <h1>Join</h1>
+      <img src='/images/Illustration.svg' alt='' />
+      <Footer />
+    </>
+  );
 }

@@ -33,16 +33,10 @@ export default function Register() {
     );
   }
 
-  const styling = {
-    backgroundImage: "url('/images/illustration.svg')",
-
-  }
-
   return (
-    <div
-      className={styles.container}
-      style={styling}
-    >
+    <div className={styles.container}>
+
+     
       <Formik
         onSubmit={onSubmit}
         validateOnMount
@@ -145,7 +139,9 @@ export default function Register() {
           </Form>
         )}
       </Formik>
-      <Footer />
+      <img src='/images/Illustration.svg' alt='' />
+
+     
     </div>
   );
 }
