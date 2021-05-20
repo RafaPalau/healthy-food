@@ -1,10 +1,12 @@
 import Button from "../Button";
+import Footer from "../Footer";
 import Input from "../Input";
 
 import styles from "./styles.module.scss";
 
 export default function BlockFinally() {
   return (
+    <>
     <div className={styles.container}>
       <div className={styles.content}>
         <h2>Join ou membership <br/> to get special offer</h2>
@@ -14,6 +16,10 @@ export default function BlockFinally() {
         </div>
       </div>
       <img src='/images/bloco_final_image.svg' alt='' />
+      
     </div>
+
+<Footer />
+</>
   );
 }

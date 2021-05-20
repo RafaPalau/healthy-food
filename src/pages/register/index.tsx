@@ -3,6 +3,7 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
+import Footer from "../../components/Footer";
 
 export default function Register() {
   const [cookies, setCookie] = useCookies(["healthy-cookie"]);
@@ -96,7 +97,7 @@ export default function Register() {
 
               <div className={styles.formControlGrup}>
                 <label>Estado</label>
-                <Field component='select' name='uf'>
+                <Field component='select' name='uf' className={styles.select}>
                   <option value={null}>Selecione o Estado</option>
                   <option value='RO'>Rondônia</option>
                   <option value='AC'>Acre</option>
@@ -133,6 +134,7 @@ export default function Register() {
           </Form>
         )}
       </Formik>
+      <Footer />
     </div>
   );
 }
