@@ -1,36 +1,137 @@
 .container {
   height: 100vh;
+  width: 100vw;
   display: flex;
+  justify-content: space-between;
+  margin-top: -10rem;
+  @media (max-width: 1920px) {
+    margin-top: 0rem;
+  }
+  @media (max-width: 1191px) {
+    margin-top: 30rem;
+    height: 90vh;
+    img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 1000px) {
+    height: 80vh;
+  }
+  @media (max-width: 870px) {
+    height: 70vh;
+  }
 
-  
+  @media (max-width: 600px) {
+
+    img {
+      display: none;
+    }
+  }
+  @media (max-width: 540px) {
+ margin-top: 7rem;
+
+  }
+  @media (max-width: 395px) {
+    margin-top: 8rem;
+     }
+     @media (max-width: 360px) {
+      margin-top: 50rem;
+       }
 }
-.content{
-display: flex;
-max-width: 30%;
-flex-direction: column;
-justify-content: center;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+  margin-right: 20rem;
+ 
+  h1 {
+    color: var(--blue-500);
+    font-size: 3rem;
+  }
 
-h1{
-  color: var(--blue-500);
+  p {
+    max-width: 600px;
+    margin-top: 2rem;
+    color: var(--gray-200);
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  button {
+    width: 130px;
+    height: 3rem;
+    margin-top: 2rem;
+    border: 0;
+    background: var(--green-500);
+    border-radius: 0.3rem;
+    color: var(--white);
+  }
+
+  @media (max-width: 1800px) {
+    margin-right: 15rem;
+  }
+
+  @media (max-width: 1650px) {
+    margin-right: 15rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      max-width: 450px;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1500px) {
+    margin-right: 8rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  @media (max-width: 1400px) {
+    padding: 0rem;
+    margin-right: 3rem;
+  }
+
+  @media (max-width: 1200px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 1039px) {
+    p {
+      margin-top: 1.5rem;
+      line-height: 1.2rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    margin-right: 1rem;
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      margin-top: 1rem;
+      line-height: 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    text-align:center;
+    align-items: center;
+    margin: 0 auto;
+   padding: 2rem;
+   }
 }
-
-p{
-  max-width: 370px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  color: var(--gray-200);
-  line-height: 1.7rem;
-}
-
-button{
-  width: 130px;
-  height: 3rem;
-  margin-top: 1rem;
-  border: 0;
-  background: var(--green-500);
-  border-radius: .3rem;
-  color: var(--white);
-}
-}
-
-

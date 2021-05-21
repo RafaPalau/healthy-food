@@ -1,27 +1,28 @@
 .container {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .content {
-  width: 50%;
-  padding: 10rem;
+ 
+  // padding: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   input {
-    width: 400px;
+    // width: 400px;
     height: 3rem;
     border: 2px solid var(--gray-500);
     border-radius: 0.3rem;
     margin-right: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
   }
   button {
-    width: 3rem;
-    height: 3rem;
+    // width: 3rem;
+    // height: 3rem;
     border: 0;
     background: var(--green-500);
     border-radius: 0.3rem;

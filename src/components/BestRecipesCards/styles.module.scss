@@ -1,18 +1,28 @@
 .container {
   height: 100vh;
-
+  width: 100vw;
 }
 .content {
-  height: 100%;
+  // height: 100vh;
   background: var(--gray-100);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
+  padding: 3rem;
+ 
+
+  h1 {
+    color: var(--blue-500);
+  }
+  p {
+    color: var(--gray-400);
+  }
 }
 
 .containerCard {
   display: flex;
   justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
 }

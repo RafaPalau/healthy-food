@@ -8,7 +8,7 @@ export default function BestecipesCards() {
       <div className={styles.content}>
         <h1>Our Best Recipes</h1>
         <p>
-          far far away, behind the word mountains, far from the countries <br/>
+          far far away, behind the word mountains, far from the countries <br />
           Vokalia and Consonantia, there live the blind texts.
         </p>
         <div>

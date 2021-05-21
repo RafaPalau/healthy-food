@@ -15,7 +15,7 @@ export default function BlockFinally() {
         <Button>Join</Button>
         </div>
       </div>
-      <img src='/images/bloco_final_image.svg' alt='' />
+      {/* <img src='/images/bloco_final_image.svg' alt='' /> */}
       
     </div>
 
