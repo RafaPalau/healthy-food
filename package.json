@@ -12,7 +12,6 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
-    "@testing-library/react": "^11.2.7",
     "express": "^4.17.1",
     "formik": "^2.1.4",
     "formik-persist": "^1.1.0",
@@ -26,7 +25,6 @@
     "yup": "^0.29.1"
   },
   "devDependencies": {
-    "@types/mocha": "^8.2.2",
     "@types/node": "^15.3.0",
     "@types/react": "^17.0.6",
     "sass": "^1.32.13",
