@@ -42,7 +42,7 @@ body {
   background-image: url("/images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: right top;
-
+  overflow-x: hidden;
   @media(max-width: 1170px){
    background-size: 70%;
   }

@@ -31,6 +31,14 @@
     color: var(--blue-500);
     font-size: 1.3rem;
   }
+
+  @media (max-width: 1200px) {
+    h3 {
+      margin: 1rem;
+     
+      font-size: 1rem;
+    }
+  }
 }
 
 .userContainer {
