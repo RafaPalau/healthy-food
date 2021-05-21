@@ -4,6 +4,7 @@ import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
 import Head from "next/head";
+import Button from "../../components/Button";
 
 export default function Register() {
   const [cookies, setCookie] = useCookies(["healthy-cookie"]);
@@ -133,7 +134,7 @@ export default function Register() {
                   <option value='DF'>Distrito Federal</option>
                 </Field>
               </div>
-              <button type='submit'>Enviar</button>
+              <Button type='submit'>Enviar</Button>
               <Persist name='@healthy-food' />
             </div>
           </Form>

@@ -3,6 +3,8 @@
   height: 100vh;
   background: var(--gray-100);
   padding-top: 3rem;
+
+
   h1 {
     text-align: center;
   }
@@ -11,6 +13,25 @@
     color: var(--gray-500);
     line-height: 2rem;
     margin-top: 1rem;
+  }
+  
+  @media(max-width: 1200px){
+    height: 70vh;
+  }
+  
+  @media(max-width: 450px){
+    h1 {
+      font-size: 1.3rem;
+    }
+    p {
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 350px) {
+    p {
+      width: 250px;
+         }
   }
 }
 .carousel {
@@ -48,6 +69,8 @@
     padding-left: 3rem;
     &:after {
       width: 3rem;
+      height: 350px;
+      margin-top: -350px;
     }
   }
 }

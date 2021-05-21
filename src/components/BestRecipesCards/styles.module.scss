@@ -1,17 +1,14 @@
 .container {
-  // height: 100vh;
   width: 100vw;
-  padding: 3rem;
 }
 .content {
-  // height: 100vh;
+ 
   background: var(--gray-100);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   padding: 3rem;
- 
 
   h1 {
     color: var(--blue-500);

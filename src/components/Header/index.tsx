@@ -1,3 +1,4 @@
+import Button from "../Button";
 import styles from "./styles.module.scss";
 
 export function Header() {
@@ -12,7 +13,7 @@ export function Header() {
           <a href='/blog'>Blog</a>
           <a href='/join'>Join</a>
           <a href='/register'>
-            <button>REGISTER</button>
+            <Button>REGISTER</Button>
           </a>
         </nav>
       </div>

@@ -1,1 +1,13 @@
 
+ .input {
+  width: 400px;
+  height: 3rem;
+  border: 2px solid var(--gray-500);
+  border-radius: 0.3rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 4px 12px;
+  @media (max-width: 1400px) {
+    width: 300px;
+  }
+}

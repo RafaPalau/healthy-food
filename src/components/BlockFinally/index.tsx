@@ -15,10 +15,10 @@ export default function BlockFinally() {
         Join ou membership <br /> to get special offer
         </h1>
         <div className={styles.containerInput}>
-        <div>
+      
             <Input placeholder='Enter your email address' />
             <Button>Join</Button>
-          </div>
+         
         </div>
       </div>
     </div>

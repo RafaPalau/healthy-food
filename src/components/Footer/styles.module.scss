@@ -2,22 +2,29 @@
   height: 100px;
   width: 100vw;
   display: flex;
-
-  
-   left: 0;
-   bottom: 0;
 }
 .content {
-  width: 80%;
-
   display: flex;
+  align-items: center;
+  width: 80%;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  align-items: center;
 
-  a{
+  a {
     margin-right: 1rem;
     color: var(--gray-500);
+  }
+  @media (max-width: 700px) {
+    p {
+      font-size: 0.8rem;
+    }
+    a {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 550px) {
+    flex-direction: column;
+    justify-content: center;
   }
 }

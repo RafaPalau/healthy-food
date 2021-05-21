@@ -6,8 +6,8 @@ export default function Footer() {
       <div className={styles.content}>
         <p>© Copyrights 2019 Stack. All Rights Reserved.</p>
         <nav>
-          <a href='/privacityPolicy'>Privacy Policy</a>
-          <a href='/termsAndcondicions'>Terms and conditions</a>
+          <a href='/privacity'>Privacy Policy</a>
+          <a href='/terms'>Terms and conditions</a>
         </nav>
       </div>
     </div>

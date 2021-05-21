@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Head from "next/head";
 
-export default function Blog() {
+export default function Provacity() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Blog | Healthy Food</title>
+        <title>Provacity Policy | Healthy Food</title>
       </Head>
       <div className={styles.content}>
-      <h1>Blog</h1>
+      <h1>Provacity Policy</h1>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat nam voluptate, nostrum sint sed cumque eum? Laboriosam et provident, officia delectus, maxime soluta aspernatur commodi nesciunt iusto mollitia assumenda cumque natus, recusandae inventore veniam architecto laborum doloribus quasi accusamus voluptate alias corporis facilis! Reiciendis quia, ducimus ut totam et ad delectus aliquid .</p>
       </div>
