@@ -2,6 +2,11 @@
 
 [![Deployment Status](https://vercelbadge.vercel.app/api/euaaron/nlw-five-react?style=flat-square)](https://healthy-food-a287ztdkk-rafapalau.vercel.app/)
 
+[https://healthy-food2.herokuapp.com/](https://healthy-food2.herokuapp.com/)
+
+or
+
+[https://healthy-food-roan.vercel.app/](https://healthy-food-roan.vercel.app/)
 
 ## Summary
 
