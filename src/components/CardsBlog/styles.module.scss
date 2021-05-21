@@ -3,10 +3,23 @@
   flex-direction: column;
   border-radius: 0.5rem;
   background: var(--white);
-  width: 300px;
-  // height: 400px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin: 3rem;
+  width: 350px;
+  height: 450px;
+  box-shadow: rgba(63, 64, 65, 0.3) 0px 4px 12px;
+  margin: 3rem 0;
+
+  @media (max-width: 1400px) {
+    width: 300px;
+    height: 400px;
+  }
+  @media (max-width: 1200px) {
+    width: 250px;
+    height: 350px;
+  }
+  @media (max-width: 1000px) {
+    width: 200px;
+    height: 300px;
+  }
 }
 .textContainer {
   max-width: 250px;
@@ -28,7 +41,6 @@
     width: 40px !important;
     height: 40px !important;
     border-radius: 50%;
-   
   }
   p {
     color: var(--gray-400);

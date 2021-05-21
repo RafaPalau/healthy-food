@@ -1,20 +1,30 @@
 .container {
   width: 100vw;
   height: 100vh;
-  //  padding: 10rem;
   background: var(--gray-100);
- 
+  padding-top: 3rem;
   h1 {
     text-align: center;
   }
   p {
     text-align: center;
+    color: var(--gray-500);
+    line-height: 2rem;
+    margin-top: 1rem;
   }
 }
-.carousel{
-  //   position: relative;
-  //   z-index: 0;
-  // background: red;
+.carousel {
+  padding-left: 5rem;
+  @media (max-width: 1500px) {
+    padding-left: 3rem;
+  }
+
+  @media (max-width: 1460px) {
+    padding-left: 1rem;
+  }
+  @media (max-width: 1400px) {
+    padding-left: 2rem;
+  }
 }
 .arrowLeft {
   width: 3rem;
@@ -26,7 +36,8 @@
   font-size: 2rem;
   position: absolute;
   z-index: 2;
-  margin-top: 13rem;
+  margin-top: 17.5rem;
+  box-shadow: rgba(63, 64, 65, 0.3) 0px 4px 12px;
   svg {
     display: flex;
     margin: 0 auto;
@@ -42,8 +53,9 @@
   font-size: 2rem;
   position: absolute;
   z-index: 2;
-  margin-top: 13rem;
-  right: 0;
+  margin-top: 17.5rem;
+  box-shadow: rgba(63, 64, 65, 0.3) 0px 4px 12px;
+  right: 25px;
   svg {
     display: flex;
     margin: 0 auto;
