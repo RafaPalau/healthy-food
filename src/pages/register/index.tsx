@@ -1,10 +1,10 @@
 import React from "react";
+import Button from '../../components/Button'
 import { Formik, Field, Form} from "formik";
 import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
 import Head from "next/head";
-import Button from "../../components/Button";
 
 export default function Register() {
   const [cookies, setCookie] = useCookies(["healthy-cookie"]);
