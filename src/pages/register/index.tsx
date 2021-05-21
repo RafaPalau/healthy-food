@@ -1,16 +1,14 @@
-import React, { useState } from "react";
-import { Formik, Field, Form, ErrorMessage } from "formik";
+import React from "react";
+import { Formik, Field, Form} from "formik";
 import { Persist } from "formik-persist";
 import styles from "./styles.module.scss";
 import { useCookies } from "react-cookie";
-import Footer from "../../components/Footer";
 import Head from "next/head";
 
 export default function Register() {
   const [cookies, setCookie] = useCookies(["healthy-cookie"]);
 
-  function onSubmit(values, actions) {
-    console.log("SUBMIT", values);
+  function onSubmitCookie(values, actions) {
     actions.setSubmitting(false);
     setCookie("healthy-cookie", values);
   }
@@ -36,11 +34,11 @@ export default function Register() {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>
-    <h1 className={styles.title}>Healthy Food</h1>
-    <span>register and get a special offer</span>
-    </div>
+        <h1 className={styles.title}>Healthy Food</h1>
+        <span>register and get a special offer</span>
+      </div>
       <Formik
-        onSubmit={onSubmit}
+        onSubmit={onSubmitCookie}
         validateOnMount
         initialValues={{
           name: "",
@@ -141,8 +139,6 @@ export default function Register() {
           </Form>
         )}
       </Formik>
-    
-     
     </div>
   );
 }

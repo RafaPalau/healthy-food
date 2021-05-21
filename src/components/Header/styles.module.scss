@@ -8,18 +8,11 @@
 }
 
 .headerContent {
-  @media (min-width: 1840px) {
-    width: 1800px;
-  }
-  @media (max-width: 1280px) {
-    width: 800px;
-  }
-  width: 1200px;
   display: flex;
   margin: 0 auto;
+  padding: 1rem 10rem;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
 
   h1 {
     color: var(--green-500);

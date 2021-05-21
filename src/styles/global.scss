@@ -42,6 +42,13 @@ body {
   background-image: url("/images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: right top;
+
+  @media(max-width: 1170px){
+   background-size: 70%;
+  }
+  @media(max-width: 1010px){
+    // background-size: 50%;
+   }
 }
 button {
   cursor: pointer;
